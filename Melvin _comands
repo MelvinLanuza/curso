@@ -1,0 +1,51 @@
+rvm list
+rvm use 2.7.2
+rvm gemset list
+rvm gemset use demo
+rails -v
+rails 6.1.7
+rails new rails-demo
+sudo apt install tree
+tree -L 2 -I node_modules
+rvm gemset use demo
+rails about
+rails dbconsole
+.help
+.database
+.tables
+ctrl d
+rails server
+ctrl c --detener server
+rails server --help
+rails server -b 0.0.0.0
+ip address
+--ctrl + shitf + e or o y p para cerrar
+code .
+rails generate controller --help
+rails generate controller Say hello goodbye
+rm -r .git
+irb
+puts "hola mundo"
+def Hola
+	puts "Hola mundo"
+end
+
+mkdir ruby
+
+comentarios.rb
+# para comentar una linea
+
+=begin
+comentar varias lineas
+=end 
+
+rvm gemset create depot
+
+rvm gemset use depot
+
+gem install rails -v 6.1.7
+
+rails new --help
+
+rails new depot --database=postgresql
+
