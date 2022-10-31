@@ -49,3 +49,34 @@ rails new --help
 
 rails new depot --database=postgresql
 
+
+#creando contenedor de Docker para ambiente de pruebas.
+
+>docker images
+>docker network ls
+>docker network create dev
+>docker run --name postgres --network dev -p 5432:5432 -e POSTGRES_PASSWORD=123 -d postgres:10.21
+>docker ps
+
+#instalando dpage/pgadmin4
+
+>docker images
+>docker run --network dev -p 80:80 -e 'PGADMIN_DEFAULT_EMAIL=admin@depot.com' -e 'PGADMIN_DEFAULT_PASSWORD=123' -d dpage/pgadmin4
+>docker ps
+
+#Entrar al navegador como localhost
+
+#configurar el pgadmin4 nuevo server con el nombre del docker que se creo
+
+#crear archivo docker-compose.yml en vscode con la informacion de los docker
+
+#borrar los dockers para levantarlos con compose
+
+>docker rm -f (docker id)
+>docker compose up -d
+
+
+
+
+rails db:setup
+
