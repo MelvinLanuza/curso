@@ -92,6 +92,18 @@ gem 'rspec-rails', '~> 6.0.0' #gema para realizar test unitarios.
 
 # despues de agregar una gema se debe ejecutar bundle install
 
+**********************************************************************************
+
+Clase #7
+
+# instalando la gema factory-bot-rais de github
+
+# ejecutamos bundle install
+
+# se crea archivo spec/support/factory_bot.rb y dentro del archivo se copia lo indicado en la pagina
+
+
+
 
 
 
