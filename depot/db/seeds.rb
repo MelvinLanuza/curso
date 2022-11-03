@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
 Product.create(
     title: 'Galleta Oreo',
     description: 'Galletas Oreo se caracteriza por estar constituida por dos galletas de chocolate circulares unidas por una <b>crema</b>',
